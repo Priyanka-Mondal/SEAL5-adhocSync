@@ -1,0 +1,1098 @@
+1   START
+2   THREADINIT tid:1
+3   ENABLE-LIFECYCLE tid:1 component: id:0 state:BIND-APP
+4   ATTACH-Q tid:1 queue:1090937688
+5   NATIVE-ENTRY tid:2 thread-name:Binder Thread #1
+6   POST src:2 msg:1 dest:-1 delay:0
+7   NATIVE-EXIT tid:2 thread-name:Binder Thread #1
+8   NATIVE-ENTRY tid:2 thread-name:Binder Thread #1
+9   POST src:2 msg:2 dest:-1 delay:0
+10   NATIVE-EXIT tid:2 thread-name:Binder Thread #1
+11   NATIVE-ENTRY tid:2 thread-name:Binder Thread #1
+12   POST src:2 msg:3 dest:-1 delay:0
+13   NATIVE-EXIT tid:2 thread-name:Binder Thread #1
+14   LOOP tid:1 queue:1090937688
+15   CALL tid:1 msg:1
+16   RET tid:1 msg:1
+17   CALL tid:1 msg:2
+18   TRIGGER-LIFECYCLE tid:1 component: id:0 state:BIND-APP
+19   ENABLE-LIFECYCLE tid:1 component: id:0 state:BINDAPP-DONE
+20   ENABLE-LIFECYCLE tid:1 component: id:1 state:LAUNCH-ACT
+21   RET tid:1 msg:2
+22   CALL tid:1 msg:3 beginAtomic
+23   TRIGGER-LIFECYCLE tid:1 component: id:1 state:LAUNCH-ACT
+194 rwId:1 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:112
+195 rwId:2 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:88
+203 rwId:3 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:40
+211 rwId:4 WRITE tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:208
+215 rwId:5 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:48
+255 rwId:6 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:8
+261 rwId:7 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:8
+277 rwId:8 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:8
+386 rwId:9 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:8
+439 rwId:10 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+440 rwId:11 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+466 rwId:12 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:120
+467 rwId:13 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:68
+491 rwId:14 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:8
+505 rwId:15 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:120
+506 rwId:16 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:68
+520 rwId:17 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:8
+527 rwId:18 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:8
+548 rwId:19 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:8
+583 rwId:20 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:8
+689 rwId:21 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:8
+802 rwId:22 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:8
+808 rwId:23 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:8
+828 rwId:24 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+829 rwId:25 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+927 rwId:26 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:8
+939 rwId:27 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+940 rwId:28 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+957 rwId:29 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+958 rwId:30 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+1032 rwId:31 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:8
+1114 rwId:32 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:8
+1120 rwId:33 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:8
+1140 rwId:34 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+1141 rwId:35 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+1475 rwId:36 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:8
+1487 rwId:37 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+1488 rwId:38 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+1521 rwId:39 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+1522 rwId:40 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+1571 rwId:41 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+1572 rwId:42 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+1743 rwId:43 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+1744 rwId:44 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+1778 rwId:45 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+1779 rwId:46 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+1827 rwId:47 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:8
+1909 rwId:48 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:8
+1915 rwId:49 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:8
+1935 rwId:50 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+1936 rwId:51 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+2183 rwId:52 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:8
+2195 rwId:53 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+2196 rwId:54 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+2256 rwId:55 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+2257 rwId:56 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+2267 rwId:57 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:8
+2274 rwId:58 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:8
+2289 rwId:59 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:56
+2374 rwId:60 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:56
+2697 rwId:61 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:8
+2700 rwId:62 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:16
+2701 rwId:63 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:16
+2711 rwId:64 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:8
+2829 rwId:65 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:8
+2911 rwId:66 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:8
+2917 rwId:67 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:8
+2937 rwId:68 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+2938 rwId:69 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+3828 rwId:70 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:8
+3840 rwId:71 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+3841 rwId:72 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+3874 rwId:73 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+3875 rwId:74 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+3913 rwId:75 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+3914 rwId:76 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+3948 rwId:77 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+3949 rwId:78 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+4000 rwId:79 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:8
+4112 rwId:80 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:8
+4118 rwId:81 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:8
+4138 rwId:82 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+4139 rwId:83 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+4215 rwId:84 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+4216 rwId:85 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+4388 rwId:86 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+4389 rwId:87 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+4429 rwId:88 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+4430 rwId:89 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+4548 rwId:90 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:8
+4554 rwId:91 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:8
+4574 rwId:92 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+4575 rwId:93 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+4633 rwId:94 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+4634 rwId:95 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+4696 rwId:96 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+4697 rwId:97 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+4749 rwId:98 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+4750 rwId:99 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+4849 rwId:100 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:8
+4970 rwId:101 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:8
+4976 rwId:102 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:8
+4996 rwId:103 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+4997 rwId:104 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+5737 rwId:105 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:8
+5749 rwId:106 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+5750 rwId:107 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+5783 rwId:108 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+5784 rwId:109 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+5822 rwId:110 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+5823 rwId:111 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+5857 rwId:112 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+5858 rwId:113 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+5942 rwId:114 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:8
+5948 rwId:115 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:8
+5968 rwId:116 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+5969 rwId:117 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+6045 rwId:118 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+6046 rwId:119 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+6196 rwId:120 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+6197 rwId:121 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+6237 rwId:122 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+6238 rwId:123 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+6356 rwId:124 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:8
+6362 rwId:125 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:8
+6382 rwId:126 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+6383 rwId:127 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+6441 rwId:128 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+6442 rwId:129 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+6504 rwId:130 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+6505 rwId:131 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+6557 rwId:132 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+6558 rwId:133 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+6884   ACCESS tid:1 accessId:1
+6885   ENABLE-EVENT tid:1 view:1091072984 event:0
+7340 rwId:134 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:8
+7343 rwId:135 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:16
+7344 rwId:136 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:16
+7352 rwId:137 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:8
+7492 rwId:138 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:8
+7498 rwId:139 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:8
+7518 rwId:140 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+7519 rwId:141 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+8271 rwId:142 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:8
+8283 rwId:143 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+8284 rwId:144 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+8301 rwId:145 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+8302 rwId:146 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+8355 rwId:147 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+8356 rwId:148 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+8390 rwId:149 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+8391 rwId:150 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+8475 rwId:151 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:8
+8481 rwId:152 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:8
+8501 rwId:153 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+8502 rwId:154 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+8578 rwId:155 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+8579 rwId:156 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+8729 rwId:157 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+8730 rwId:158 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+8764 rwId:159 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+8765 rwId:160 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+8886 rwId:161 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:8
+8892 rwId:162 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:8
+8912 rwId:163 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+8913 rwId:164 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+8997 rwId:165 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:8
+9009 rwId:166 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+9010 rwId:167 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+9027 rwId:168 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+9028 rwId:169 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+9084 rwId:170 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+9085 rwId:171 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+9119 rwId:172 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+9120 rwId:173 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+9170 rwId:174 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:8
+9278 rwId:175 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:8
+9284 rwId:176 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:8
+9304 rwId:177 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+9305 rwId:178 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+9398 rwId:179 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+9399 rwId:180 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+9877 rwId:181 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+9878 rwId:182 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+10105 rwId:183 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:8
+10139 rwId:184 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+10140 rwId:185 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+10174 rwId:186 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+10175 rwId:187 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+10295 rwId:188 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:8
+10301 rwId:189 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:8
+10321 rwId:190 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+10322 rwId:191 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+10445 rwId:192 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+10446 rwId:193 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+10894 rwId:194 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+10895 rwId:195 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+10968 rwId:196 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:8
+11002 rwId:197 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+11003 rwId:198 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+11049 rwId:199 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+11050 rwId:200 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+11217   ACCESS tid:1 accessId:2
+11218   ENABLE-EVENT tid:1 view:1091080384 event:0
+11317 rwId:201 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+11318 rwId:202 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+11507 rwId:203 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+11508 rwId:204 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+12070 rwId:205 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:8
+12118   ACCESS tid:1 accessId:3
+12119   ENABLE-EVENT tid:1 view:1091065280 event:0
+12353 rwId:206 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+12354 rwId:207 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+12388 rwId:208 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+12389 rwId:209 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+12506 rwId:210 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:8
+12588 rwId:211 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:8
+12594 rwId:212 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:8
+12614 rwId:213 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+12615 rwId:214 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+12861 rwId:215 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:8
+12873 rwId:216 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+12874 rwId:217 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+12896 rwId:218 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+12897 rwId:219 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+13145 rwId:220 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+13146 rwId:221 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+13180 rwId:222 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+13181 rwId:223 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+13313 rwId:224 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:8
+13426 rwId:225 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:8
+13432 rwId:226 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:8
+13452 rwId:227 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+13453 rwId:228 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+13541 rwId:229 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:8
+13553 rwId:230 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+13554 rwId:231 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+13587 rwId:232 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+13588 rwId:233 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+13734 rwId:234 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+13735 rwId:235 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+13775 rwId:236 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+13776 rwId:237 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+13896 rwId:238 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:8
+13902 rwId:239 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:8
+13922 rwId:240 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+13923 rwId:241 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+14187 rwId:242 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:8
+14199 rwId:243 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+14200 rwId:244 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+14233 rwId:245 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+14234 rwId:246 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+14279 rwId:247 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+14280 rwId:248 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+14609 rwId:249 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+14610 rwId:250 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+14644 rwId:251 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+14645 rwId:252 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+14836 rwId:253 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:8
+15227 rwId:254 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:120
+15228 rwId:255 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:68
+15667 rwId:256 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:8
+15763 rwId:257 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:8
+15872 rwId:258 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:8
+15878 rwId:259 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:8
+15898 rwId:260 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+15899 rwId:261 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+16030 rwId:262 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:8
+16042 rwId:263 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+16043 rwId:264 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+16107 rwId:265 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+16108 rwId:266 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+16142 rwId:267 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+16143 rwId:268 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+16177 rwId:269 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+16178 rwId:270 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+16259 rwId:271 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:8
+16265 rwId:272 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:8
+16285 rwId:273 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+16286 rwId:274 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+16375 rwId:275 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+16376 rwId:276 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+16752 rwId:277 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+16753 rwId:278 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+16978 rwId:279 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:8
+17012 rwId:280 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+17013 rwId:281 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+17047 rwId:282 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+17048 rwId:283 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+17311 rwId:284 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:48
+17316 rwId:285 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:120
+17322 rwId:286 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:28
+17373 rwId:287 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:48
+17533 rwId:288 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:8
+17638 rwId:289 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:8
+17662 rwId:290 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:48
+17725 rwId:291 WRITE tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:28
+17809 rwId:292 WRITE tid:1 obj:0x4108f9c0 class:Lcom/example/adhocsync/MainActivity$1; field:16
+17810 rwId:293 WRITE tid:1 obj:0x4108f9c0 class:Lcom/example/adhocsync/MainActivity$1; field:48
+17823 rwId:294 READ tid:1 obj:0x4108f9c0 class:Lcom/example/adhocsync/MainActivity$1; field:48
+17854 rwId:295 WRITE tid:1 obj:0x4108f9c0 class:Lcom/example/adhocsync/MainActivity$1; field:40
+17855 rwId:296 WRITE tid:1 obj:0x4108f9c0 class:Lcom/example/adhocsync/MainActivity$1; field:24
+17856 rwId:297 WRITE tid:1 obj:0x4108f9c0 class:Lcom/example/adhocsync/MainActivity$1; field:1379
+17859 rwId:298 WRITE tid:1 obj:0x4108f9c0 class:Lcom/example/adhocsync/MainActivity$1; field:64
+17860 rwId:299 WRITE tid:1 obj:0x4108f9c0 class:Lcom/example/adhocsync/MainActivity$1; field:8
+17861 rwId:300 READ tid:1 obj:0x4108f9c0 class:Lcom/example/adhocsync/MainActivity$1; field:16
+17876   ACCESS tid:1 accessId:4
+17877   LOCK tid:1 lock-obj:0x4108f9c0
+17878 rwId:301 READ tid:1 obj:0x4108f9c0 class:Lcom/example/adhocsync/MainActivity$1; field:72
+17879 rwId:302 WRITE tid:1 obj:0x4108f9c0 class:Lcom/example/adhocsync/MainActivity$1; field:72
+17880 rwId:303 READ tid:1 obj:0x4108f9c0 class:Lcom/example/adhocsync/MainActivity$1; field:1379
+17881   ACCESS tid:1 accessId:5
+17882   FORK par-tid:1 child-tid:3
+17883   UNLOCK tid:1 lock-obj:0x4108f9c0
+17886 rwId:304 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:212
+17896   THREADINIT tid:3
+17969 rwId:305 READ tid:1 obj:0x4107ecb8 class:Ljava/util/LinkedList; field:12
+17970 rwId:306 READ tid:1 obj:0x4107ecb8 class:Ljava/util/LinkedList; field:12
+17975 rwId:307 READ tid:1 obj:0x4107ecb8 class:Ljava/util/LinkedList; field:12
+17976 rwId:308 READ tid:1 obj:0x4107ecb8 class:Ljava/util/LinkedList; field:16
+17977 rwId:309 WRITE tid:1 obj:0x4107ecb8 class:Ljava/util/LinkedList; field:16
+17978 rwId:310 READ tid:1 obj:0x4107ecb8 class:Ljava/util/LinkedList; field:8
+17979 rwId:311 WRITE tid:1 obj:0x4107ecb8 class:Ljava/util/LinkedList; field:8
+17982 rwId:312 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:212
+17993 rwId:313 READ tid:1 obj:0x4107ecb8 class:Ljava/util/LinkedList; field:12
+18018 rwId:314 READ tid:3 obj:0x4108f9c0 class:Lcom/example/adhocsync/MainActivity$1; field:84
+18026 rwId:315 READ tid:3 obj:0x4108f6a8 class:Landroid/os/Handler; field:20
+18032 rwId:316 READ tid:1 obj:0x4107ecb8 class:Ljava/util/LinkedList; field:12
+18037 rwId:317 READ tid:1 obj:0x4107ecb8 class:Ljava/util/LinkedList; field:12
+18038 rwId:318 READ tid:1 obj:0x4107ecb8 class:Ljava/util/LinkedList; field:16
+18039 rwId:319 WRITE tid:1 obj:0x4107ecb8 class:Ljava/util/LinkedList; field:16
+18040 rwId:320 READ tid:1 obj:0x4107ecb8 class:Ljava/util/LinkedList; field:8
+18041 rwId:321 WRITE tid:1 obj:0x4107ecb8 class:Ljava/util/LinkedList; field:8
+18046 rwId:322 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:224
+18047 rwId:323 WRITE tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:224
+18062 rwId:324 READ-STATIC tid:1 class:Lcom/example/adhocsync/MainActivity; field:2135
+18064   ACCESS tid:1 accessId:6
+18066   LOCK tid:1 lock-obj:0x41062f40
+18067 rwId:325 READ tid:1 obj:0x41062f40 class:Lcom/android/internal/os/AndroidPrintStream; field:24
+18076 rwId:326 READ tid:3 obj:0x4108f9c0 class:Lcom/example/adhocsync/MainActivity$1; field:12
+18077   ACCESS tid:3 accessId:7
+18078   POST src:3 msg:4 dest:-1 delay:0
+18085   THREADEXIT tid:3
+18087 rwId:327 READ tid:1 obj:0x41062f40 class:Lcom/android/internal/os/AndroidPrintStream; field:48
+18088 rwId:328 READ tid:1 obj:0x41062f40 class:Lcom/android/internal/os/AndroidPrintStream; field:44
+18092   ACCESS tid:1 accessId:8
+18093   UNLOCK tid:1 lock-obj:0x41062f40
+18095 rwId:329 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:212
+18098 rwId:330 READ tid:1 obj:0x4107ecb8 class:Ljava/util/LinkedList; field:16
+18145 rwId:331 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:220
+18153 rwId:332 READ tid:1 obj:0x4107edf8 class:Landroid/os/Handler; field:20
+18160   ACCESS tid:1 accessId:9
+18161   POST src:1 msg:5 dest:-1 delay:9998
+18167 rwId:333 READ-STATIC tid:1 class:Lcom/example/adhocsync/MainActivity; field:2135
+18169   ACCESS tid:1 accessId:10
+18170   LOCK tid:1 lock-obj:0x41062f40
+18171 rwId:334 READ tid:1 obj:0x41062f40 class:Lcom/android/internal/os/AndroidPrintStream; field:24
+18181 rwId:335 READ tid:1 obj:0x41062f40 class:Lcom/android/internal/os/AndroidPrintStream; field:48
+18182 rwId:336 READ tid:1 obj:0x41062f40 class:Lcom/android/internal/os/AndroidPrintStream; field:44
+18186   ACCESS tid:1 accessId:11
+18187   UNLOCK tid:1 lock-obj:0x41062f40
+18191   INSTANCE-INTENT tid:1 instance:1091037768 intentId:1
+18192   TRIGGER-LIFECYCLE tid:1 component:MainActivity id:1091037768 state:RESUME-ACT
+18193   ENABLE-EVENT tid:1 view:0 event:3
+18194   ENABLE-EVENT tid:1 view:0 event:4
+18195   ENABLE-EVENT tid:1 view:0 event:5
+18196   ENABLE-WINDOW-FOCUS tid:1 windowHash:1091041248
+18197   POST src:1 msg:6 dest:-1 delay:0
+18198   ADD_IDLE_HANDLER idler:1091117944 queue:1090937688
+18199   RET tid:1 msg:3 endAtomic
+18200   CALL tid:1 msg:4
+18202 rwId:337 READ tid:1 obj:0x4108feb0 class:Lcom/example/adhocsync/MainActivity$1$1; field:8
+18204 rwId:338 READ tid:1 obj:0x4108f9c0 class:Lcom/example/adhocsync/MainActivity$1; field:80
+18206 rwId:339 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:224
+18207 rwId:340 READ-STATIC tid:1 class:Lcom/example/adhocsync/MainActivity$1$1; field:2135
+18209   ACCESS tid:1 accessId:12
+18210   LOCK tid:1 lock-obj:0x41062f40
+18211 rwId:341 READ tid:1 obj:0x41062f40 class:Lcom/android/internal/os/AndroidPrintStream; field:24
+18221 rwId:342 READ tid:1 obj:0x41062f40 class:Lcom/android/internal/os/AndroidPrintStream; field:48
+18222 rwId:343 READ tid:1 obj:0x41062f40 class:Lcom/android/internal/os/AndroidPrintStream; field:44
+18226   ACCESS tid:1 accessId:13
+18227   UNLOCK tid:1 lock-obj:0x41062f40
+18229 rwId:344 READ-STATIC tid:1 class:Lcom/example/adhocsync/MainActivity$1$1; field:2135
+18231   ACCESS tid:1 accessId:14
+18232   LOCK tid:1 lock-obj:0x41062f40
+18233 rwId:345 READ tid:1 obj:0x41062f40 class:Lcom/android/internal/os/AndroidPrintStream; field:24
+18243 rwId:346 READ tid:1 obj:0x41062f40 class:Lcom/android/internal/os/AndroidPrintStream; field:48
+18244 rwId:347 READ tid:1 obj:0x41062f40 class:Lcom/android/internal/os/AndroidPrintStream; field:44
+18248   ACCESS tid:1 accessId:15
+18249   UNLOCK tid:1 lock-obj:0x41062f40
+18252   RET tid:1 msg:4
+18253   CALL tid:1 msg:6 beginAtomic
+18254   POST src:1 msg:7 dest:-1 delay:0
+18255   NATIVE-ENTRY tid:4 thread-name:Binder Thread #2
+18256   POST src:4 msg:8 dest:-1 delay:0
+18257   NATIVE-EXIT tid:4 thread-name:Binder Thread #2
+18258   NATIVE-ENTRY tid:2 thread-name:Binder Thread #1
+18259   POST src:2 msg:9 dest:-1 delay:0
+18260   NATIVE-EXIT tid:2 thread-name:Binder Thread #1
+18261   POST src:1 msg:10 dest:-1 delay:0
+18262   RET tid:1 msg:6 endAtomic
+18263   CALL tid:1 msg:7 beginAtomic
+18266 rwId:348 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:136
+18269 rwId:349 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:48
+18274 rwId:350 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:120
+18280 rwId:351 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:28
+18282 rwId:352 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:28
+18283 rwId:353 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:28
+18290 rwId:354 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+18291 rwId:355 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+18298 rwId:356 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:24
+18313 rwId:357 WRITE tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:136
+18314 rwId:358 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:136
+18317 rwId:359 READ tid:1 obj:0x41093f90 class:Landroid/view/MenuInflater; field:16
+18320 rwId:360 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:8
+18434 rwId:361 READ tid:1 obj:0x41093f90 class:Landroid/view/MenuInflater; field:16
+18440 rwId:362 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:8
+18454 rwId:363 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:8
+18478 rwId:364 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+18479 rwId:365 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:20
+18573 rwId:366 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:8
+18602 rwId:367 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:8
+18631 rwId:368 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:8
+18660 rwId:369 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:8
+18764   ACCESS tid:1 accessId:16
+18765   RET tid:1 msg:7 endAtomic
+18766   CALL tid:1 msg:8
+18767   RET tid:1 msg:8
+18768   CALL tid:1 msg:9
+18769   TRIGGER-WINDOW-FOCUS tid:1 windowHash:1091041248
+18770   POST src:1 msg:11 dest:-1 delay:0
+18771   NATIVE-ENTRY tid:4 thread-name:Binder Thread #2
+18772   POST src:4 msg:12 dest:-1 delay:0
+18773   NATIVE-EXIT tid:4 thread-name:Binder Thread #2
+18774   NATIVE-ENTRY tid:2 thread-name:Binder Thread #1
+18775   POST src:2 msg:13 dest:-1 delay:0
+18776   NATIVE-EXIT tid:2 thread-name:Binder Thread #1
+18777   NATIVE-ENTRY tid:4 thread-name:Binder Thread #2
+18778   POST src:4 msg:14 dest:-1 delay:0
+18779   NATIVE-EXIT tid:4 thread-name:Binder Thread #2
+18780   RET tid:1 msg:9
+18781   CALL tid:1 msg:10 beginAtomic
+18782   POST src:1 msg:15 dest:-1 delay:0
+18783   RET tid:1 msg:10 endAtomic
+18784   CALL tid:1 msg:11
+18785   RET tid:1 msg:11
+18786   CALL tid:1 msg:12
+18787   RET tid:1 msg:12
+18788   CALL tid:1 msg:13
+18789   RET tid:1 msg:13
+18790   CALL tid:1 msg:14
+18791   RET tid:1 msg:14
+18792   CALL tid:1 msg:15 beginAtomic
+18793   RET tid:1 msg:15 endAtomic
+18794   POST src:1 msg:16 dest:-1 delay:0
+18795   POST src:1 msg:17 dest:-1 delay:0
+18796   CALL tid:1 msg:17
+18797   QUEUE_IDLE tid:1 idler:1091117944 queue:1090937688
+18798   RET tid:1 msg:17
+18799   REMOVE_IDLE_HANDLER idler:1091117944 queue:1090937688
+18800   CALL tid:1 msg:16
+18801   TRIGGER-EVENT tid:1 view:0 event:4
+18802   ENABLE-EVENT tid:1 view:1091173520 event:0
+18803   ENABLE-WINDOW-FOCUS tid:1 windowHash:1091163280
+18804   ENABLE-WINDOW-FOCUS tid:1 windowHash:1091041248
+18805   POST src:1 msg:18 dest:-1 delay:0
+18806   NATIVE-ENTRY tid:2 thread-name:Binder Thread #1
+18807   POST src:2 msg:19 dest:-1 delay:0
+18808   NATIVE-EXIT tid:2 thread-name:Binder Thread #1
+18809   RET tid:1 msg:16
+18810   CALL tid:1 msg:18
+18811   POST src:1 msg:20 dest:-1 delay:1198
+18812   NATIVE-ENTRY tid:4 thread-name:Binder Thread #2
+18813   POST src:4 msg:21 dest:-1 delay:0
+18814   NATIVE-EXIT tid:4 thread-name:Binder Thread #2
+18815   POST src:1 msg:22 dest:-1 delay:0
+18816   POST src:1 msg:23 dest:-1 delay:0
+18817   RET tid:1 msg:18
+18818   CALL tid:1 msg:19
+18819   TRIGGER-WINDOW-FOCUS tid:1 windowHash:1091163280
+18820   ENABLE-EVENT tid:1 view:1091173520 event:0
+18821   RET tid:1 msg:19
+18822   CALL tid:1 msg:21
+18823   RET tid:1 msg:21
+18824   CALL tid:1 msg:22
+18825   RET tid:1 msg:22
+18826   CALL tid:1 msg:23
+18827   POST src:1 msg:24 dest:-1 delay:0
+18828   NATIVE-ENTRY tid:2 thread-name:Binder Thread #1
+18829   POST src:2 msg:25 dest:-1 delay:0
+18830   NATIVE-EXIT tid:2 thread-name:Binder Thread #1
+18831   RET tid:1 msg:23
+18832   CALL tid:1 msg:24
+18833   RET tid:1 msg:24
+18834   CALL tid:1 msg:25
+18835   TRIGGER-WINDOW-FOCUS tid:1 windowHash:1091041248
+18836   RET tid:1 msg:25
+18837   POST src:1 msg:26 dest:-1 delay:0
+18838   CALL tid:1 msg:26
+18839   TRIGGER-EVENT tid:1 view:1091173520 event:0
+18840   POST src:1 msg:27 dest:-1 delay:0
+18841   POST src:1 msg:28 dest:-1 delay:179
+18842   POST src:1 msg:29 dest:-1 delay:0
+18843   POST src:1 msg:30 dest:-1 delay:15
+18844   POST src:1 msg:31 dest:-1 delay:125
+18845   RET tid:1 msg:26
+18846   CALL tid:1 msg:20
+18847   RET tid:1 msg:20
+18848   CALL tid:1 msg:27
+18849   RET tid:1 msg:27
+18850   CALL tid:1 msg:29
+18851   POST src:1 msg:32 dest:-1 delay:0
+18852   RET tid:1 msg:29
+18853   CALL tid:1 msg:30
+18854   POST src:1 msg:33 dest:-1 delay:15
+18855   RET tid:1 msg:30
+18856   CALL tid:1 msg:32
+18857   POST src:1 msg:34 dest:-1 delay:0
+18858   RET tid:1 msg:32
+18859   CALL tid:1 msg:33
+18860   POST src:1 msg:35 dest:-1 delay:16
+18861   RET tid:1 msg:33
+18862   CALL tid:1 msg:34
+18863   POST src:1 msg:36 dest:-1 delay:0
+18864   RET tid:1 msg:34
+18865   CALL tid:1 msg:35
+18866   POST src:1 msg:37 dest:-1 delay:13
+18867   RET tid:1 msg:35
+18868   CALL tid:1 msg:36
+18869   POST src:1 msg:38 dest:-1 delay:0
+18870   RET tid:1 msg:36
+18871   CALL tid:1 msg:37
+18872   POST src:1 msg:39 dest:-1 delay:16
+18873   RET tid:1 msg:37
+18874   CALL tid:1 msg:38
+18875   POST src:1 msg:40 dest:-1 delay:0
+18876   RET tid:1 msg:38
+18877   CALL tid:1 msg:31
+18878   POST src:1 msg:41 dest:-1 delay:15
+18881 rwId:370 READ tid:1 obj:0x41094300 class:Lcom/android/internal/view/menu/MenuItemImpl; field:60
+18884   ACCESS tid:1 accessId:17
+18885   POST src:1 msg:42 dest:-1 delay:0
+18886   ENABLE-WINDOW-FOCUS tid:1 windowHash:1091041248
+18887   RET tid:1 msg:31
+18888   CALL tid:1 msg:40
+18889   RET tid:1 msg:40
+18890   CALL tid:1 msg:41
+18891   POST src:1 msg:43 dest:-1 delay:11
+18892   RET tid:1 msg:41
+18893   CALL tid:1 msg:42
+18894   NATIVE-ENTRY tid:4 thread-name:Binder Thread #2
+18895   POST src:4 msg:44 dest:-1 delay:0
+18896   NATIVE-EXIT tid:4 thread-name:Binder Thread #2
+18897   NATIVE-ENTRY tid:2 thread-name:Binder Thread #1
+18898   POST src:2 msg:45 dest:-1 delay:0
+18899   NATIVE-EXIT tid:2 thread-name:Binder Thread #1
+18900   RET tid:1 msg:42
+18901   CALL tid:1 msg:43
+18902   RET tid:1 msg:43
+18903   CALL tid:1 msg:44
+18904   TRIGGER-WINDOW-FOCUS tid:1 windowHash:1091041248
+18905   POST src:1 msg:46 dest:-1 delay:0
+18906   RET tid:1 msg:44
+18907   CALL tid:1 msg:45
+18908   RET tid:1 msg:45
+18909   CALL tid:1 msg:46
+18910   RET tid:1 msg:46
+18911   POST src:1 msg:47 dest:-1 delay:0
+18912   CALL tid:1 msg:47
+18913   TRIGGER-EVENT tid:1 view:0 event:5
+18914   ENABLE-LIFECYCLE tid:1 component:MainActivity id:1091037768 state:RELAUNCH-ACT
+18915   ENABLE-LIFECYCLE tid:1 component: id:0 state:CHANGE-CONFIG
+18916   ENABLE-LIFECYCLE tid:1 component: id:0 state:CHANGE-ACT-CONFIG
+18917   NATIVE-ENTRY tid:4 thread-name:Binder Thread #2
+18918   POST src:4 msg:48 dest:-1 delay:0
+18919   NATIVE-EXIT tid:4 thread-name:Binder Thread #2
+18920   NATIVE-ENTRY tid:2 thread-name:Binder Thread #1
+18921   POST src:2 msg:49 dest:-1 delay:0
+18922   NATIVE-EXIT tid:2 thread-name:Binder Thread #1
+18923   NATIVE-ENTRY tid:4 thread-name:Binder Thread #2
+18924   POST src:4 msg:50 dest:-1 delay:0
+18925   NATIVE-EXIT tid:4 thread-name:Binder Thread #2
+18926   NATIVE-ENTRY tid:2 thread-name:Binder Thread #1
+18927   POST src:2 msg:51 dest:-1 delay:0
+18928   NATIVE-EXIT tid:2 thread-name:Binder Thread #1
+18929   NATIVE-ENTRY tid:4 thread-name:Binder Thread #2
+18930   POST src:4 msg:52 dest:-1 delay:0
+18931   NATIVE-EXIT tid:4 thread-name:Binder Thread #2
+18932   RET tid:1 msg:47
+18933   CALL tid:1 msg:5
+18935 rwId:371 READ tid:1 obj:0x41090298 class:Lcom/example/adhocsync/MainActivity$2; field:8
+18936 rwId:372 READ tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:212
+18939 rwId:373 READ tid:1 obj:0x4107ecb8 class:Ljava/util/LinkedList; field:12
+18940 rwId:374 READ tid:1 obj:0x4107ecb8 class:Ljava/util/LinkedList; field:12
+18941 rwId:375 READ tid:1 obj:0x4107ecb8 class:Ljava/util/LinkedList; field:12
+18942 rwId:376 READ tid:1 obj:0x4107ecb8 class:Ljava/util/LinkedList; field:12
+18943 rwId:377 READ tid:1 obj:0x4107ecb8 class:Ljava/util/LinkedList; field:16
+18944 rwId:378 WRITE tid:1 obj:0x4107ecb8 class:Ljava/util/LinkedList; field:16
+18945 rwId:379 READ tid:1 obj:0x4107ecb8 class:Ljava/util/LinkedList; field:8
+18946 rwId:380 WRITE tid:1 obj:0x4107ecb8 class:Ljava/util/LinkedList; field:8
+18949 rwId:381 READ tid:1 obj:0x41090298 class:Lcom/example/adhocsync/MainActivity$2; field:8
+18950 rwId:382 WRITE tid:1 obj:0x4107ea48 class:Lcom/example/adhocsync/MainActivity; field:224
+18951 rwId:383 READ-STATIC tid:1 class:Lcom/example/adhocsync/MainActivity$2; field:2135
+18953   ACCESS tid:1 accessId:18
+18954   LOCK tid:1 lock-obj:0x41062f40
+18955 rwId:384 READ tid:1 obj:0x41062f40 class:Lcom/android/internal/os/AndroidPrintStream; field:24
+18965 rwId:385 READ tid:1 obj:0x41062f40 class:Lcom/android/internal/os/AndroidPrintStream; field:48
+18966 rwId:386 READ tid:1 obj:0x41062f40 class:Lcom/android/internal/os/AndroidPrintStream; field:44
+18970   ACCESS tid:1 accessId:19
+18971   UNLOCK tid:1 lock-obj:0x41062f40
+18973 rwId:387 READ-STATIC tid:1 class:Lcom/example/adhocsync/MainActivity$2; field:2135
+18975   ACCESS tid:1 accessId:20
+18976   LOCK tid:1 lock-obj:0x41062f40
+18977 rwId:388 READ tid:1 obj:0x41062f40 class:Lcom/android/internal/os/AndroidPrintStream; field:24
+18987 rwId:389 READ tid:1 obj:0x41062f40 class:Lcom/android/internal/os/AndroidPrintStream; field:48
+18988 rwId:390 READ tid:1 obj:0x41062f40 class:Lcom/android/internal/os/AndroidPrintStream; field:44
+18992   ACCESS tid:1 accessId:21
+18993   UNLOCK tid:1 lock-obj:0x41062f40
+18996   RET tid:1 msg:5
+18997   CALL tid:1 msg:48
+18998   RET tid:1 msg:48
+18999   CALL tid:1 msg:49
+19000   TRIGGER-LIFECYCLE tid:1 component: id:0 state:CHANGE-CONFIG
+19001   RET tid:1 msg:49
+19002   CALL tid:1 msg:50
+19003   RET tid:1 msg:50
+19004   CALL tid:1 msg:51 beginAtomic
+19005   TRIGGER-LIFECYCLE tid:1 component:MainActivity id:1091037768 state:RELAUNCH-ACT
+19006   TRIGGER-LIFECYCLE tid:1 component:MainActivity id:1091037768 state:PAUSE-ACT
+19007   TRIGGER-LIFECYCLE tid:1 component:MainActivity id:1091037768 state:STOP-ACT
+19008   TRIGGER-LIFECYCLE tid:1 component:MainActivity id:1091037768 state:DESTROY-ACT
+19009   NATIVE-ENTRY tid:2 thread-name:Binder Thread #1
+19010   POST src:2 msg:53 dest:-1 delay:0
+19011   NATIVE-EXIT tid:2 thread-name:Binder Thread #1
+19012   POST src:1 msg:54 dest:-1 delay:0
+19013   TRIGGER-LIFECYCLE tid:1 component: id:1 state:LAUNCH-ACT
+19124 rwId:391 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:112
+19133 rwId:392 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:88
+19134 rwId:393 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:112
+19137 rwId:394 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:88
+19145 rwId:395 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:40
+19153 rwId:396 WRITE tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:208
+19157 rwId:397 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:48
+19197 rwId:398 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:8
+19203 rwId:399 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:8
+19273 rwId:400 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:8
+19326 rwId:401 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+19327 rwId:402 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+19345 rwId:403 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:120
+19346 rwId:404 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:68
+19370 rwId:405 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:8
+19384 rwId:406 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:120
+19385 rwId:407 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:68
+19399 rwId:408 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:8
+19406 rwId:409 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:8
+19427 rwId:410 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:8
+19462 rwId:411 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:8
+19598 rwId:412 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:8
+19604 rwId:413 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:8
+19624 rwId:414 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+19625 rwId:415 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+19723 rwId:416 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:8
+19735 rwId:417 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+19736 rwId:418 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+19753 rwId:419 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+19754 rwId:420 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+19863 rwId:421 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:8
+19869 rwId:422 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:8
+19889 rwId:423 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+19890 rwId:424 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+20136 rwId:425 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:8
+20148 rwId:426 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+20149 rwId:427 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+20182 rwId:428 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+20183 rwId:429 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+20232 rwId:430 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+20233 rwId:431 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+20382 rwId:432 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+20383 rwId:433 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+20417 rwId:434 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+20418 rwId:435 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+20501 rwId:436 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:8
+20507 rwId:437 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:8
+20527 rwId:438 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+20528 rwId:439 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+20775 rwId:440 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:8
+20787 rwId:441 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+20788 rwId:442 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+20848 rwId:443 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+20849 rwId:444 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+20859 rwId:445 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:8
+20866 rwId:446 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:8
+20881 rwId:447 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:56
+20966 rwId:448 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:56
+21161 rwId:449 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:8
+21164 rwId:450 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:16
+21165 rwId:451 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:16
+21175 rwId:452 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:8
+21324 rwId:453 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:8
+21330 rwId:454 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:8
+21350 rwId:455 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+21351 rwId:456 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+22099 rwId:457 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:8
+22111 rwId:458 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+22112 rwId:459 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+22145 rwId:460 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+22146 rwId:461 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+22184 rwId:462 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+22185 rwId:463 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+22219 rwId:464 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+22220 rwId:465 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+22304 rwId:466 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:8
+22310 rwId:467 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:8
+22330 rwId:468 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+22331 rwId:469 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+22407 rwId:470 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+22408 rwId:471 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+22558 rwId:472 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+22559 rwId:473 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+22599 rwId:474 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+22600 rwId:475 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+22718 rwId:476 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:8
+22724 rwId:477 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:8
+22744 rwId:478 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+22745 rwId:479 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+22803 rwId:480 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+22804 rwId:481 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+22866 rwId:482 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+22867 rwId:483 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+22919 rwId:484 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+22920 rwId:485 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+23019 rwId:486 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:8
+23140 rwId:487 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:8
+23146 rwId:488 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:8
+23166 rwId:489 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+23167 rwId:490 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+23907 rwId:491 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:8
+23919 rwId:492 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+23920 rwId:493 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+23953 rwId:494 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+23954 rwId:495 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+23992 rwId:496 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+23993 rwId:497 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+24027 rwId:498 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+24028 rwId:499 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+24112 rwId:500 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:8
+24118 rwId:501 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:8
+24138 rwId:502 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+24139 rwId:503 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+24215 rwId:504 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+24216 rwId:505 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+24366 rwId:506 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+24367 rwId:507 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+24407 rwId:508 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+24408 rwId:509 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+24526 rwId:510 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:8
+24532 rwId:511 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:8
+24552 rwId:512 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+24553 rwId:513 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+24611 rwId:514 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+24612 rwId:515 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+24674 rwId:516 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+24675 rwId:517 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+24727 rwId:518 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+24728 rwId:519 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+25054   ACCESS tid:1 accessId:22
+25055   ENABLE-EVENT tid:1 view:1091352008 event:0
+25506 rwId:520 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:8
+25509 rwId:521 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:16
+25510 rwId:522 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:16
+25518 rwId:523 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:8
+25654 rwId:524 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:8
+25660 rwId:525 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:8
+25680 rwId:526 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+25681 rwId:527 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+26433 rwId:528 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:8
+26445 rwId:529 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+26446 rwId:530 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+26463 rwId:531 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+26464 rwId:532 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+26517 rwId:533 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+26518 rwId:534 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+26552 rwId:535 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+26553 rwId:536 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+26637 rwId:537 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:8
+26643 rwId:538 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:8
+26663 rwId:539 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+26664 rwId:540 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+26740 rwId:541 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+26741 rwId:542 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+26891 rwId:543 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+26892 rwId:544 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+26926 rwId:545 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+26927 rwId:546 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+27048 rwId:547 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:8
+27054 rwId:548 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:8
+27074 rwId:549 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+27075 rwId:550 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+27159 rwId:551 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:8
+27171 rwId:552 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+27172 rwId:553 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+27189 rwId:554 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+27190 rwId:555 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+27246 rwId:556 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+27247 rwId:557 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+27281 rwId:558 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+27282 rwId:559 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+27365 rwId:560 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:8
+27371 rwId:561 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:8
+27391 rwId:562 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+27392 rwId:563 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+27485 rwId:564 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+27486 rwId:565 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+27946 rwId:566 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+27947 rwId:567 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+28174 rwId:568 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:8
+28208 rwId:569 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+28209 rwId:570 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+28243 rwId:571 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+28244 rwId:572 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+28364 rwId:573 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:8
+28370 rwId:574 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:8
+28390 rwId:575 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+28391 rwId:576 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+28514 rwId:577 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+28515 rwId:578 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+28963 rwId:579 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+28964 rwId:580 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+29037 rwId:581 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:8
+29071 rwId:582 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+29072 rwId:583 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+29118 rwId:584 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+29119 rwId:585 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+29286   ACCESS tid:1 accessId:23
+29287   ENABLE-EVENT tid:1 view:1091358840 event:0
+29386 rwId:586 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+29387 rwId:587 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+29576 rwId:588 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+29577 rwId:589 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+30139 rwId:590 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:8
+30183   ACCESS tid:1 accessId:24
+30184   ENABLE-EVENT tid:1 view:1091344752 event:0
+30418 rwId:591 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+30419 rwId:592 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+30453 rwId:593 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+30454 rwId:594 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+30606 rwId:595 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:8
+30612 rwId:596 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:8
+30632 rwId:597 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+30633 rwId:598 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+30857 rwId:599 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:8
+30869 rwId:600 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+30870 rwId:601 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+30892 rwId:602 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+30893 rwId:603 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+31119 rwId:604 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+31120 rwId:605 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+31154 rwId:606 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+31155 rwId:607 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+31321 rwId:608 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:8
+31327 rwId:609 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:8
+31347 rwId:610 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+31348 rwId:611 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+31436 rwId:612 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:8
+31448 rwId:613 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+31449 rwId:614 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+31482 rwId:615 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+31483 rwId:616 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+31607 rwId:617 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+31608 rwId:618 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+31648 rwId:619 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+31649 rwId:620 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+31769 rwId:621 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:8
+31775 rwId:622 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:8
+31795 rwId:623 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+31796 rwId:624 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+32060 rwId:625 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:8
+32072 rwId:626 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+32073 rwId:627 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+32106 rwId:628 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+32107 rwId:629 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+32152 rwId:630 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+32153 rwId:631 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+32354 rwId:632 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+32355 rwId:633 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+32389 rwId:634 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+32390 rwId:635 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+32581 rwId:636 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:8
+32938 rwId:637 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:120
+32939 rwId:638 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:68
+33302 rwId:639 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:8
+33432 rwId:640 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:8
+33438 rwId:641 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:8
+33458 rwId:642 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+33459 rwId:643 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+33590 rwId:644 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:8
+33602 rwId:645 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+33603 rwId:646 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+33667 rwId:647 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+33668 rwId:648 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+33702 rwId:649 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+33703 rwId:650 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+33737 rwId:651 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+33738 rwId:652 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+33819 rwId:653 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:8
+33825 rwId:654 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:8
+33845 rwId:655 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+33846 rwId:656 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+33935 rwId:657 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+33936 rwId:658 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+34312 rwId:659 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+34313 rwId:660 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+34538 rwId:661 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:8
+34572 rwId:662 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+34573 rwId:663 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+34607 rwId:664 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+34608 rwId:665 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+34871 rwId:666 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:48
+34876 rwId:667 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:120
+34882 rwId:668 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:28
+34933 rwId:669 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:48
+35093 rwId:670 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:8
+35198 rwId:671 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:8
+35222 rwId:672 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:48
+35285 rwId:673 WRITE tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:28
+35315 rwId:674 WRITE tid:1 obj:0x4106b978 class:Lcom/example/adhocsync/MainActivity$1; field:16
+35316 rwId:675 WRITE tid:1 obj:0x4106b978 class:Lcom/example/adhocsync/MainActivity$1; field:48
+35329 rwId:676 READ tid:1 obj:0x4106b978 class:Lcom/example/adhocsync/MainActivity$1; field:48
+35360 rwId:677 WRITE tid:1 obj:0x4106b978 class:Lcom/example/adhocsync/MainActivity$1; field:40
+35361 rwId:678 WRITE tid:1 obj:0x4106b978 class:Lcom/example/adhocsync/MainActivity$1; field:24
+35362 rwId:679 WRITE tid:1 obj:0x4106b978 class:Lcom/example/adhocsync/MainActivity$1; field:1379
+35365 rwId:680 WRITE tid:1 obj:0x4106b978 class:Lcom/example/adhocsync/MainActivity$1; field:64
+35366 rwId:681 WRITE tid:1 obj:0x4106b978 class:Lcom/example/adhocsync/MainActivity$1; field:8
+35367 rwId:682 READ tid:1 obj:0x4106b978 class:Lcom/example/adhocsync/MainActivity$1; field:16
+35382   ACCESS tid:1 accessId:25
+35383   LOCK tid:1 lock-obj:0x4106b978
+35384 rwId:683 READ tid:1 obj:0x4106b978 class:Lcom/example/adhocsync/MainActivity$1; field:72
+35385 rwId:684 WRITE tid:1 obj:0x4106b978 class:Lcom/example/adhocsync/MainActivity$1; field:72
+35386 rwId:685 READ tid:1 obj:0x4106b978 class:Lcom/example/adhocsync/MainActivity$1; field:1379
+35387   ACCESS tid:1 accessId:26
+35388   FORK par-tid:1 child-tid:7
+35389   UNLOCK tid:1 lock-obj:0x4106b978
+35392 rwId:686 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:212
+35397 rwId:687 READ tid:1 obj:0x410c63e0 class:Ljava/util/LinkedList; field:12
+35398 rwId:688 READ tid:1 obj:0x410c63e0 class:Ljava/util/LinkedList; field:12
+35400   THREADINIT tid:7
+35406 rwId:689 READ tid:7 obj:0x4106b978 class:Lcom/example/adhocsync/MainActivity$1; field:84
+35414 rwId:690 READ tid:1 obj:0x410c63e0 class:Ljava/util/LinkedList; field:12
+35415 rwId:691 READ tid:1 obj:0x410c63e0 class:Ljava/util/LinkedList; field:16
+35416 rwId:692 WRITE tid:1 obj:0x410c63e0 class:Ljava/util/LinkedList; field:16
+35417 rwId:693 READ tid:1 obj:0x410c63e0 class:Ljava/util/LinkedList; field:8
+35418 rwId:694 WRITE tid:1 obj:0x410c63e0 class:Ljava/util/LinkedList; field:8
+35421 rwId:695 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:212
+35432 rwId:696 READ tid:1 obj:0x410c63e0 class:Ljava/util/LinkedList; field:12
+35433 rwId:697 READ tid:1 obj:0x410c63e0 class:Ljava/util/LinkedList; field:12
+35437 rwId:698 READ tid:7 obj:0x41078330 class:Landroid/os/Handler; field:20
+35444 rwId:699 READ tid:7 obj:0x4106b978 class:Lcom/example/adhocsync/MainActivity$1; field:12
+35445   ACCESS tid:7 accessId:28
+35446   POST src:7 msg:55 dest:-1 delay:0
+35450   ENTRY tid:1 meth:<init> class:Ljava/util/LinkedList$Link; obj:0x41063058
+35454 rwId:700 READ tid:1 obj:0x410c63e0 class:Ljava/util/LinkedList; field:12
+35455 rwId:701 READ tid:1 obj:0x410c63e0 class:Ljava/util/LinkedList; field:16
+35456 rwId:702 WRITE tid:1 obj:0x410c63e0 class:Ljava/util/LinkedList; field:16
+35457 rwId:703 READ tid:1 obj:0x410c63e0 class:Ljava/util/LinkedList; field:8
+35458 rwId:704 WRITE tid:1 obj:0x410c63e0 class:Ljava/util/LinkedList; field:8
+35466   THREADEXIT tid:7
+35467 rwId:705 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:224
+35468 rwId:706 WRITE tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:224
+35469 rwId:707 READ-STATIC tid:1 class:Lcom/example/adhocsync/MainActivity; field:2135
+35471   ACCESS tid:1 accessId:27
+35472   LOCK tid:1 lock-obj:0x41062f40
+35473 rwId:708 READ tid:1 obj:0x41062f40 class:Lcom/android/internal/os/AndroidPrintStream; field:24
+35483 rwId:709 READ tid:1 obj:0x41062f40 class:Lcom/android/internal/os/AndroidPrintStream; field:48
+35484 rwId:710 READ tid:1 obj:0x41062f40 class:Lcom/android/internal/os/AndroidPrintStream; field:44
+35488   ACCESS tid:1 accessId:29
+35489   UNLOCK tid:1 lock-obj:0x41062f40
+35491 rwId:711 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:212
+35494 rwId:712 READ tid:1 obj:0x410c63e0 class:Ljava/util/LinkedList; field:16
+35501 rwId:713 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:220
+35509 rwId:714 READ tid:1 obj:0x410c6440 class:Landroid/os/Handler; field:20
+35516   ACCESS tid:1 accessId:30
+35517   POST src:1 msg:56 dest:-1 delay:9997
+35523 rwId:715 READ-STATIC tid:1 class:Lcom/example/adhocsync/MainActivity; field:2135
+35525   ACCESS tid:1 accessId:31
+35526   LOCK tid:1 lock-obj:0x41062f40
+35527 rwId:716 READ tid:1 obj:0x41062f40 class:Lcom/android/internal/os/AndroidPrintStream; field:24
+35537 rwId:717 READ tid:1 obj:0x41062f40 class:Lcom/android/internal/os/AndroidPrintStream; field:48
+35538 rwId:718 READ tid:1 obj:0x41062f40 class:Lcom/android/internal/os/AndroidPrintStream; field:44
+35542   ACCESS tid:1 accessId:32
+35543   UNLOCK tid:1 lock-obj:0x41062f40
+35549 rwId:719 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:136
+35552 rwId:720 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:48
+35557 rwId:721 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:120
+35563 rwId:722 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:28
+35565 rwId:723 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:28
+35566 rwId:724 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:28
+35573 rwId:725 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+35574 rwId:726 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+35581 rwId:727 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:24
+35596 rwId:728 WRITE tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:136
+35597 rwId:729 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:136
+35600 rwId:730 READ tid:1 obj:0x410983f0 class:Landroid/view/MenuInflater; field:16
+35603 rwId:731 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:8
+35717 rwId:732 READ tid:1 obj:0x410983f0 class:Landroid/view/MenuInflater; field:16
+35723 rwId:733 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:8
+35737 rwId:734 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:8
+35761 rwId:735 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+35762 rwId:736 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:20
+35931   ACCESS tid:1 accessId:33
+35932   INSTANCE-INTENT tid:1 instance:1091330584 intentId:1
+35933   TRIGGER-LIFECYCLE tid:1 component:MainActivity id:1091330584 state:RESUME-ACT
+35934   ENABLE-EVENT tid:1 view:0 event:3
+35935   ENABLE-EVENT tid:1 view:0 event:4
+35936   ENABLE-EVENT tid:1 view:0 event:5
+35937   ENABLE-WINDOW-FOCUS tid:1 windowHash:1091333352
+35938   POST src:1 msg:57 dest:-1 delay:0
+35939   ADD_IDLE_HANDLER idler:1091038552 queue:1090937688
+35940   RET tid:1 msg:51 endAtomic
+35941   CALL tid:1 msg:52
+35942   RET tid:1 msg:52
+35943   CALL tid:1 msg:53
+35944   RET tid:1 msg:53
+35945   CALL tid:1 msg:54 beginAtomic
+35946   RET tid:1 msg:54 endAtomic
+35947   CALL tid:1 msg:55
+35949 rwId:737 READ tid:1 obj:0x41075320 class:Lcom/example/adhocsync/MainActivity$1$1; field:8
+35951 rwId:738 READ tid:1 obj:0x4106b978 class:Lcom/example/adhocsync/MainActivity$1; field:80
+35953 rwId:739 READ tid:1 obj:0x410c6218 class:Lcom/example/adhocsync/MainActivity; field:224
+35954 rwId:740 READ-STATIC tid:1 class:Lcom/example/adhocsync/MainActivity$1$1; field:2135
+35956   ACCESS tid:1 accessId:34
+35957   LOCK tid:1 lock-obj:0x41062f40
+35958 rwId:741 READ tid:1 obj:0x41062f40 class:Lcom/android/internal/os/AndroidPrintStream; field:24
+35968 rwId:742 READ tid:1 obj:0x41062f40 class:Lcom/android/internal/os/AndroidPrintStream; field:48
+35969 rwId:743 READ tid:1 obj:0x41062f40 class:Lcom/android/internal/os/AndroidPrintStream; field:44
+35973   ACCESS tid:1 accessId:35
+35974   UNLOCK tid:1 lock-obj:0x41062f40
+35976 rwId:744 READ-STATIC tid:1 class:Lcom/example/adhocsync/MainActivity$1$1; field:2135
+35978   ACCESS tid:1 accessId:36
+35979   LOCK tid:1 lock-obj:0x41062f40
+35980 rwId:745 READ tid:1 obj:0x41062f40 class:Lcom/android/internal/os/AndroidPrintStream; field:24
+35990 rwId:746 READ tid:1 obj:0x41062f40 class:Lcom/android/internal/os/AndroidPrintStream; field:48
+35991 rwId:747 READ tid:1 obj:0x41062f40 class:Lcom/android/internal/os/AndroidPrintStream; field:44
+35995   ACCESS tid:1 accessId:37
+35996   UNLOCK tid:1 lock-obj:0x41062f40
+35999   RET tid:1 msg:55
+36000   CALL tid:1 msg:57 beginAtomic
+36001   POST src:1 msg:58 dest:-1 delay:0
+36002   POST src:1 msg:59 dest:-1 delay:0
+36003   NATIVE-ENTRY tid:4 thread-name:Binder Thread #2
+36004   POST src:4 msg:60 dest:-1 delay:0
+36005   NATIVE-EXIT tid:4 thread-name:Binder Thread #2
+36006   NATIVE-ENTRY tid:2 thread-name:Binder Thread #1
+36007   POST src:2 msg:61 dest:-1 delay:0
+36008   NATIVE-EXIT tid:2 thread-name:Binder Thread #1
+36009   POST src:1 msg:62 dest:-1 delay:0
+36010   RET tid:1 msg:57 endAtomic
+36011   CALL tid:1 msg:58
+36012   RET tid:1 msg:58
+36013   CALL tid:1 msg:59
+36014   RET tid:1 msg:59
+36015   CALL tid:1 msg:60
+36016   RET tid:1 msg:60
+36017   CALL tid:1 msg:61
+36018   TRIGGER-WINDOW-FOCUS tid:1 windowHash:1091333352
+36019   POST src:1 msg:63 dest:-1 delay:0
+36020   NATIVE-ENTRY tid:4 thread-name:Binder Thread #2
+36021   POST src:4 msg:64 dest:-1 delay:0
+36022   NATIVE-EXIT tid:4 thread-name:Binder Thread #2
+36023   RET tid:1 msg:61
+36024   CALL tid:1 msg:62 beginAtomic
+36025   RET tid:1 msg:62 endAtomic
+36026   CALL tid:1 msg:63
+36027   RET tid:1 msg:63
+36028   CALL tid:1 msg:64
+36029   RET tid:1 msg:64
